@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [redbusSuite]">
+  <parameter name="browser" value="ff"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.sequretek.steps.HomeSteps">
+        <methods>
+          <include name="searchBus"/>
+        </methods>
+      </class> <!-- com.sequretek.steps.HomeSteps -->
+      <class name="com.sequretek.suitbase.SuitBase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="suiteConfig"/>
+        </methods>
+      </class> <!-- com.sequretek.suitbase.SuitBase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [redbusSuite] -->
